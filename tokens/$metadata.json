@@ -4,11 +4,11 @@
     "_core/local",
     "scheme/scheme-light",
     "scheme/scheme-dark",
-    "comp/alerts",
     "comp/buttons",
     "comp/check-boxes",
-    "comp/dropdowns",
     "comp/input fields",
-    "comp/toggles"
+    "comp/toggles",
+    "comp/dropdowns",
+    "comp/alerts"
   ]
 }
