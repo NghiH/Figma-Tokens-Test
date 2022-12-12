@@ -1,6 +1,5 @@
 {
   "tokenSetOrder": [
-    "semantic-zen",
     "_core/global",
     "_core/local",
     "scheme/scheme-light",
