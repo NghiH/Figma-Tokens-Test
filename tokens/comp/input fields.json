@@ -157,7 +157,7 @@
           "type": "color"
         },
         "bg-colour": {
-          "value": "rgba($generic.white, 0)",
+          "value": "rgba($comp.bg-colour.default, 0)",
           "type": "color"
         },
         "placeholder-text": {
@@ -168,12 +168,12 @@
           "value": "$text-colour.default.default",
           "type": "color"
         },
-        "helper-text": {
-          "value": "{text-colour.default.placeholder}",
-          "type": "color"
-        },
         "icon-colour": {
           "value": "{text-colour.default.default}",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "{text-colour.default.placeholder}",
           "type": "color"
         },
         "add-on-text": {
@@ -211,7 +211,7 @@
           "type": "color"
         },
         "bg-colour": {
-          "value": "rgba($generic.white, 0)",
+          "value": "rgba($comp.bg-colour.default, 0)",
           "type": "color"
         },
         "input-text": {
@@ -225,7 +225,7 @@
           "type": "color"
         },
         "bg-colour": {
-          "value": "rgba($generic.white, 0)",
+          "value": "rgba($comp.bg-colour.default, 0)",
           "type": "color"
         },
         "input-text": {
@@ -266,6 +266,10 @@
           "value": "$neutral.300",
           "type": "color"
         },
+        "bg-colour": {
+          "value": "rgba($comp.bg-colour.contrast, 0)",
+          "type": "color"
+        },
         "placeholder-text": {
           "value": "{text-colour.contrast.placeholder}",
           "type": "color"
@@ -291,11 +295,19 @@
         "border-colour": {
           "value": "$primary.400",
           "type": "color"
+        },
+        "bg-colour": {
+          "value": "rgba($comp.bg-colour.contrast, 0)",
+          "type": "color"
         }
       },
       "typing": {
         "border-colour": {
           "value": "$primary.400",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rgba($comp.bg-colour.contrast, 0)",
           "type": "color"
         },
         "input-text": {
@@ -308,6 +320,10 @@
           "value": "$neutral.400",
           "type": "color"
         },
+        "bg-colour": {
+          "value": "rgba($comp.bg-colour.contrast, 0)",
+          "type": "color"
+        },
         "input-text": {
           "value": "{text-colour.contrast.default}",
           "type": "color"
@@ -316,6 +332,10 @@
       "disabled": {
         "border-colour": {
           "value": "$neutral.200",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rgba($comp.bg-colour.contrast, 0)",
           "type": "color"
         },
         "input-text": {
