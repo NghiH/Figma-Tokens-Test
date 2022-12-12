@@ -187,7 +187,7 @@
           "type": "color"
         },
         "bg-colour": {
-          "value": "$generic.white",
+          "value": "$comp.bg-colour.default",
           "type": "color"
         }
       },
@@ -197,7 +197,7 @@
           "type": "color"
         },
         "bg-colour": {
-          "value": "$generic.white",
+          "value": "$comp.bg-colour.default",
           "type": "color"
         },
         "input-text": {
@@ -269,6 +269,22 @@
         "placeholder-text": {
           "value": "{text-colour.contrast.placeholder}",
           "type": "color"
+        },
+        "label": {
+          "value": "$text-colour.contrast.default",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{text-colour.contrast.default}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.contrast.placeholder",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "$text-colour.contrast.placeholder",
+          "type": "color"
         }
       },
       "focus": {
@@ -305,6 +321,22 @@
         "input-text": {
           "value": "{text-colour.contrast.disabled}",
           "type": "color"
+        },
+        "icon-colour": {
+          "value": "{text-colour.contrast.disabled}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.contrast.disabled",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "$text-colour.contrast.disabled",
+          "type": "color"
+        },
+        "label": {
+          "value": "$text-colour.contrast.disabled",
+          "type": "color"
         }
       },
       "error": {
@@ -314,48 +346,6 @@
         },
         "helper-text": {
           "value": "$text-colour.contrast.error",
-          "type": "color"
-        }
-      },
-      "icon-colour": {
-        "default": {
-          "value": "{text-colour.contrast.default}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{text-colour.contrast.disabled}",
-          "type": "color"
-        }
-      },
-      "add-on": {
-        "default": {
-          "value": "$text-colour.contrast.placeholder",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$text-colour.contrast.disabled",
-          "type": "color"
-        }
-      },
-      "helper": {
-        "text-colour": {
-          "default": {
-            "value": "$text-colour.contrast.placeholder",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "$text-colour.contrast.disabled",
-            "type": "color"
-          }
-        }
-      },
-      "label": {
-        "default": {
-          "value": "$text-colour.contrast.default",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$text-colour.contrast.disabled",
           "type": "color"
         }
       }
