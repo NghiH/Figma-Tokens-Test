@@ -67,7 +67,7 @@
         "value": "$neutral.50",
         "type": "color"
       },
-      "dark": {
+      "contrast": {
         "value": "$neutral.900",
         "type": "color"
       }
@@ -77,6 +77,10 @@
     "bg-colour": {
       "default": {
         "value": "$generic.white",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "$generic.black",
         "type": "color"
       }
     }

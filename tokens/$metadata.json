@@ -1,15 +1,15 @@
 {
   "tokenSetOrder": [
-    "global",
-    "local",
-    "buttons",
-    "input fields",
-    "check-boxes",
-    "toggles",
-    "dropdowns",
-    "alerts",
-    "scheme-light",
-    "scheme-dark",
-    "semantic-zen"
+    "semantic-zen",
+    "_core/global",
+    "_core/local",
+    "scheme/scheme-light",
+    "scheme/scheme-dark",
+    "comp/alerts",
+    "comp/buttons",
+    "comp/check-boxes",
+    "comp/dropdowns",
+    "comp/input fields",
+    "comp/toggles"
   ]
 }

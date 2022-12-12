@@ -3,17 +3,16 @@
     "id": "7347fd90e502aaece9e7cf40f79f188b93485a2a",
     "name": "default - light",
     "selectedTokenSets": {
-      "local": "enabled",
       "semantic-zen": "disabled",
-      "global": "source",
-      "scheme-light": "enabled",
-      "scheme-dark": "disabled",
-      "buttons": "enabled",
-      "check-boxes": "enabled",
-      "dropdowns": "enabled",
-      "toggles": "enabled",
-      "alerts": "enabled",
-      "input fields": "enabled"
+      "_core/global": "source",
+      "_core/local": "enabled",
+      "comp/alerts": "enabled",
+      "comp/buttons": "enabled",
+      "comp/check-boxes": "enabled",
+      "comp/dropdowns": "enabled",
+      "comp/input fields": "enabled",
+      "comp/toggles": "enabled",
+      "scheme/scheme-light": "enabled"
     },
     "$figmaStyleReferences": {
       "neutral.25": "S:2dfa6639c094193c6d3b6b2487835b0a4143eedc,",
@@ -214,17 +213,16 @@
     "id": "3302a6ab13541c7c09e7a82868ef83ef0e4e27d3",
     "name": "default - dark",
     "selectedTokenSets": {
-      "local": "enabled",
       "semantic-zen": "disabled",
-      "global": "source",
-      "scheme-light": "disabled",
-      "scheme-dark": "enabled",
-      "buttons": "enabled",
-      "check-boxes": "enabled",
-      "dropdowns": "enabled",
-      "toggles": "enabled",
-      "alerts": "enabled",
-      "input fields": "enabled"
+      "_core/global": "source",
+      "_core/local": "enabled",
+      "comp/alerts": "enabled",
+      "comp/buttons": "enabled",
+      "comp/check-boxes": "enabled",
+      "comp/dropdowns": "enabled",
+      "comp/input fields": "enabled",
+      "comp/toggles": "enabled",
+      "scheme/scheme-dark": "enabled"
     },
     "$figmaStyleReferences": {
       "overline.sm": "S:e3b104fb495bc77308e354184ac784a5b78c362e,",

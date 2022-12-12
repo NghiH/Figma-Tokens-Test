@@ -151,207 +151,221 @@
       }
     },
     "default": {
-      "border-colour": {
-        "default": {
+      "default": {
+        "border-colour": {
           "value": "$neutral.300",
           "type": "color"
         },
-        "focus": {
-          "value": "$primary.400",
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.default,0)",
           "type": "color"
         },
-        "typing": {
-          "value": "$primary.400",
-          "type": "color"
-        },
-        "active": {
-          "value": "$neutral.400",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$neutral.200",
-          "type": "color"
-        },
-        "error": {
-          "value": "$sys.error.500",
-          "type": "color"
-        }
-      },
-      "input-text-colour": {
-        "placeholder": {
+        "placeholder-text": {
           "value": "{text-colour.default.placeholder}",
           "type": "color"
         },
-        "typing": {
-          "value": "{text-colour.default.default}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{text-colour.default.default}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{text-colour.default.disabled}",
-          "type": "color"
-        }
-      },
-      "icon-colour": {
-        "default": {
-          "value": "{text-colour.default.default}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{text-colour.default.disabled}",
-          "type": "color"
-        }
-      },
-      "add-on": {
-        "default": {
-          "value": "$text-colour.default.placeholder",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$text-colour.default.disabled",
-          "type": "color"
-        }
-      },
-      "helper": {
-        "text-colour": {
-          "default": {
-            "value": "{text-colour.default.placeholder}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{text-colour.default.error}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{text-colour.default.disabled}",
-            "type": "color"
-          }
-        }
-      },
-      "label": {
-        "default": {
+        "label": {
           "value": "$text-colour.default.default",
           "type": "color"
         },
-        "disabled": {
-          "value": "$text-colour.default.disabled",
+        "icon-colour": {
+          "value": "{text-colour.default.default}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.default.placeholder",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "{text-colour.default.placeholder}",
           "type": "color"
         }
       },
-      "bg-colour": {
-        "default": {
-          "value": "rgba($generic.white, 0)",
+      "focus": {
+        "border-colour": {
+          "value": "$primary.400",
           "type": "color"
         },
-        "focus": {
+        "bg-colour": {
+          "value": "$generic.white",
+          "type": "color"
+        }
+      },
+      "typing": {
+        "border-colour": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "bg-colour": {
           "value": "$generic.white",
           "type": "color"
         },
-        "typing": {
-          "value": "$generic.white",
+        "input-text": {
+          "value": "{text-colour.default.default}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "border-colour": {
+          "value": "$neutral.400",
           "type": "color"
         },
-        "active": {
+        "bg-colour": {
           "value": "rgba($generic.white, 0)",
           "type": "color"
         },
-        "disabled": {
+        "input-text": {
+          "value": "{text-colour.default.default}",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "border-colour": {
+          "value": "$neutral.200",
+          "type": "color"
+        },
+        "bg-colour": {
           "value": "rgba($generic.white, 0)",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "{text-colour.default.disabled}",
+          "type": "color"
+        },
+        "label": {
+          "value": "$text-colour.default.disabled",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{text-colour.default.disabled}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.default.disabled",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "{text-colour.default.disabled}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "border-colour": {
+          "value": "$sys.error.500",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "{text-colour.default.error}",
           "type": "color"
         }
       }
     },
     "contrast": {
-      "border-colour": {
-        "default": {
+      "default": {
+        "border-colour": {
           "value": "$neutral.300",
           "type": "color"
         },
-        "focus": {
-          "value": "$primary.400",
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.contrast,0)",
           "type": "color"
         },
-        "typing": {
-          "value": "$primary.400",
-          "type": "color"
-        },
-        "active": {
-          "value": "$neutral.400",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$neutral.200",
-          "type": "color"
-        },
-        "error": {
-          "value": "$sys.error.500",
-          "type": "color"
-        }
-      },
-      "input-text-colour": {
-        "placeholder": {
+        "placeholder-text": {
           "value": "{text-colour.contrast.placeholder}",
           "type": "color"
         },
-        "typing": {
-          "value": "{text-colour.contrast.default}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{text-colour.contrast.default}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{text-colour.contrast.disabled}",
-          "type": "color"
-        }
-      },
-      "icon-colour": {
-        "default": {
-          "value": "{text-colour.contrast.default}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{text-colour.contrast.disabled}",
-          "type": "color"
-        }
-      },
-      "add-on": {
-        "default": {
-          "value": "$text-colour.contrast.placeholder",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$text-colour.contrast.disabled",
-          "type": "color"
-        }
-      },
-      "helper": {
-        "text-colour": {
-          "default": {
-            "value": "$text-colour.contrast.placeholder",
-            "type": "color"
-          },
-          "error": {
-            "value": "$text-colour.contrast.error",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "$text-colour.contrast.disabled",
-            "type": "color"
-          }
-        }
-      },
-      "label": {
-        "default": {
+        "label": {
           "value": "$text-colour.contrast.default",
           "type": "color"
         },
-        "disabled": {
+        "icon-colour": {
+          "value": "{text-colour.contrast.default}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.contrast.placeholder",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "$text-colour.contrast.placeholder",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "border-colour": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.contrast,0)",
+          "type": "color"
+        }
+      },
+      "typing": {
+        "border-colour": {
+          "value": "$primary.400",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.contrast,0)",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "{text-colour.contrast.default}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "border-colour": {
+          "value": "$neutral.400",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.contrast,0)",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "{text-colour.contrast.default}",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "border-colour": {
+          "value": "$neutral.200",
+          "type": "color"
+        },
+        "bg-colour": {
+          "value": "rbga($comp.bg-colour.contrast,0)",
+          "type": "color"
+        },
+        "input-text": {
+          "value": "{text-colour.contrast.disabled}",
+          "type": "color"
+        },
+        "label": {
           "value": "$text-colour.contrast.disabled",
+          "type": "color"
+        },
+        "icon-colour": {
+          "value": "{text-colour.contrast.disabled}",
+          "type": "color"
+        },
+        "add-on-text": {
+          "value": "$text-colour.contrast.disabled",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "$text-colour.contrast.disabled",
+          "type": "color"
+        }
+      },
+      "error": {
+        "border-colour": {
+          "value": "$sys.error.500",
+          "type": "color"
+        },
+        "helper-text": {
+          "value": "$text-colour.contrast.error",
           "type": "color"
         }
       }

@@ -7,7 +7,7 @@
     "bg-colour": {
       "empty": {
         "default": {
-          "value": "$comp.bg-colour.default",
+          "value": "{comp.bg-colour.default}",
           "type": "color"
         },
         "hover": {
@@ -175,7 +175,7 @@
     "bg-colour": {
       "empty": {
         "default": {
-          "value": "$comp.bg-colour.default",
+          "value": "{comp.bg-colour.default}",
           "type": "color"
         },
         "hover": {
